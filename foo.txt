@@ -5,6 +5,10 @@ int main() {
     
     double n1, n2, n3;
 
+    // but if n2 is less than n3
+    // but n2 is greater than n1
+    // then n3 is the largest number
+
     cout << "Enter three numbers: ";
     cin >> n1 >> n2 >> n3;
 
