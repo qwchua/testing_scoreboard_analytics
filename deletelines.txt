@@ -5,9 +5,6 @@ int main() {
     
     double n1, n2, n3;
     double a;
-    double b;
-    double c;
-    double d;
     double e;
 
     cout << "Enter three numbers: ";
