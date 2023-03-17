@@ -9,6 +9,9 @@ int main() {
     cin >> n1 >> n2 >> n3;
 
     // check if n1 is the largest number
+    // but if n1 is less than n3
+    // but n1 is greater than n2
+    // then n3 is the largest number
     if(n1 >= n2 && n1 >= n3)
         cout << "Largest number: " << n1;
 
