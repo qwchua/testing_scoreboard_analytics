@@ -11,8 +11,12 @@ int main() {
     // check if n1 is the largest number
     if(n1 >= n2 && n1 >= n3)
         cout << "Largest number: " << n1;
+        cout << "Largest number1: " << n1;
+        cout << "Largest number2: " << n1;
+        cout << "Largest number3: " << n1;
+        cout << "Largest number4: " << n1;
+        cout << "Largest number5: " << n1;
 
-    
     // if neither n1 nor n2 are the largest, n3 is the largest
     else 
         cout << "Largest number: " << n3;
