@@ -7,14 +7,16 @@ int main() {
 
     cout << "Enter three numbers: ";
     cin >> n1 >> n2 >> n3;
+    cin >> n1;
+    cin >> n2;
+    cin >> n3;
+    cin >> n4;
 
     // check if n1 is the largest number
     if(n1 >= n2 && n1 >= n3)
         cout << "Largest number: " << n1;
 
     // check if n2 is the largest number
-    else if(n2 >= n1 && n2 >= n3)
-        cout << "Largest number: " << n2;
     
     // if neither n1 nor n2 are the largest, n3 is the largest
     else
