@@ -10,3 +10,7 @@ int main() {
 
     // check if n1 is the largest number
     if(n1 >= n2 && n1 >= n3)
+        cout << "Largest number: " << n1;
+
+    // check if n2 is the largest number
+    else if(n2 >= n1 && n2 >= n3)
